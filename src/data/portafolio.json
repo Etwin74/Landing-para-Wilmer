@@ -1,0 +1,16 @@
+[
+  {
+    "id": "el-angel-hotel",
+    "cliente": "Hotel el Angel",
+    "zona": "Chota",
+    "servicio": "Cableado completo e instalacion de luminarias",
+    "img": "/media/proyectos/el-angel-hotel-1280.webp"
+  },
+    {
+    "id": "casa-hogar",
+    "cliente": "Casa Hogar",
+    "zona": "Chota",
+    "servicio": "Instalacion de luminarias y tomacorrientes",
+    "img": "/media/proyectos/casa-hogar.webp"
+  }
+]

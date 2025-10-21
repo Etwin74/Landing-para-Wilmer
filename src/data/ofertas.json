@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kit-griferia",
+    "titulo": "Kit de grifería cromada",
+    "precioAntes": 159.9,
+    "precioAhora": 119.9,
+    "vigencia": "hasta agotar stock",
+    "img": "/media/ofertas/kit-griferia-640.webp"
+  },
+    {
+    "id": "terma-sole",
+    "titulo": "Terma eléctrica Sole 50L",
+    "precioAntes": 499.9,
+    "precioAhora": 429.9,
+    "vigencia": "hasta fin de mes",
+    "img": "/media/ofertas/terma-sole-640.webp"
+  },
+   {
+    "id": "kit-cisterna",
+    "titulo": "Kit de mantenimiento para cisterna",
+    "precioAntes": 99.9,
+    "precioAhora": 79.9,
+    "vigencia": "hasta el 31 de octubre",
+    "img": "/media/ofertas/kit-cisterna.webp"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "tuberias": [
+    {
+      "id": "ppr-20mm",
+      "titulo": "Tubería PPR 20mm",
+      "descripcion": "Tubería de polipropileno para agua potable.",
+      "precio": 50,
+      "img": "/media/productos/tuberia-ppr-20mm-640.webp"
+    },
+    {
+      "id": "pvc-25mm",
+      "titulo": "Tubería PVC 25mm",
+      "descripcion": "Tubería de PVC para desagüe.",
+      "precio": 40,
+      "img": "/media/productos/tuberia-pvc-25mm-640.webp"
+    }
+  ],
+  "griferia": [
+    {
+      "id": "grifo-monomando",
+      "titulo": "Grifo Monomando",
+      "descripcion": "Grifo monomando para baño.",
+      "precio": 120,
+      "img": "/media/productos/grifo-monomando-640.webp"
+    },
+    {
+      "id": "grifo-empotrado",
+      "titulo": "Grifo Empotrado",
+      "descripcion": "Grifo empotrado de alta calidad para cocina.",
+      "precio": 150,
+      "img": "/media/productos/grifo-empotrado-640.webp"
+    }
+  ],
+  "termas": [
+    {
+      "id": "terma-solar",
+      "titulo": "Terma Solar",
+      "descripcion": "Terma solar para calefacción de agua.",
+      "precio": 350,
+      "img": "/media/productos/terma-solar-640.webp"
+    }
+  ],
+  "herramientas": [
+    {
+      "id": "taladro-perforador",
+      "titulo": "Taladro Perforador",
+      "descripcion": "Taladro eléctrico profesional.",
+      "precio": 120,
+      "img": "/media/productos/taladro-perforador-640.webp"
+    }
+  ]
+}

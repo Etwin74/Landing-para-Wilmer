@@ -1,0 +1,59 @@
+[
+  {
+    "id": "instalacion-griferia",
+    "titulo": "Instalación de grifería",
+    "descripcion": "Suministro e instalación con garantía y prueba de fugas.",
+    "precioDesde": 60,
+    "img": "/media/servicios/instalacion-griferia-960.webp"
+  },
+  {
+    "id": "tuberias-agua",
+    "titulo": "Tuberías de agua y desagüe",
+    "descripcion": "Tendido y reparación de tuberías PPR/PVC con pruebas de presión.",
+    "precioDesde": 120,
+    "img": "/media/servicios/tuberias-agua-120.webp"
+  },
+    {
+    "id": "instalacion-terma",
+    "titulo": "Instalación de terma",
+    "descripcion": "Conexión eléctrica y de agua con pruebas de funcionamiento.",
+    "precioDesde": 100,
+    "img": "/media/servicios/instalacion-terma.webp"
+  },
+    {
+    "id": "reparacion-fuga",
+    "titulo": "Reparación de fuga de agua",
+    "descripcion": "Detección y sellado de fugas en tuberías o conexiones.",
+    "precioDesde": 55,
+    "img": "/media/servicios/reparacion-fuga.webp"
+  },
+    {
+    "id": "reparacion-fuga",
+    "titulo": "Reparación de fuga de agua",
+    "descripcion": "Detección y sellado de fugas en tuberías o conexiones.",
+    "precioDesde": 55,
+    "img": "/media/servicios/reparacion-fuga.webp"
+  },
+  {
+    "id": "instalacion-tanque-elevado",
+    "titulo": "Instalación de tanque elevado",
+    "descripcion": "Montaje estructural y conexión hidráulica completa.",
+    "precioDesde": 150,
+    "img": "/media/servicios/instalacion-tanque-elevado.webp"
+  },
+  {
+    "id": "mantenimiento-plomeria",
+    "titulo": "Mantenimiento de plomería",
+    "descripcion": "Revisión y ajuste de sistemas hidráulicos para evitar problemas futuros.",
+    "precioDesde": 80,
+    "img": "/media/servicios/mantenimiento-plomeria.webp"
+  },
+  {
+    "id": "instalacion-lavadero",
+    "titulo": "Instalación de lavadero",
+    "descripcion": "Suministro e instalación con conexiones de agua y desagüe.",
+    "precioDesde": 130,
+    "img": "/media/servicios/instalacion-lavadero.webp"
+  }
+
+]

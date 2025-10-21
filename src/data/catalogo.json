@@ -1,0 +1,66 @@
+[
+  {
+    "id": "led-9w-e27",
+    "categoria": "iluminacion",
+    "titulo": "Foco LED 9W E27",
+    "descripcion": "Luz fría 6500K, 800 lm, ahorro de energía.",
+    "precio": 9.9,
+    "img": "/media/productos/iluminacion/led-9w-e27-640.webp",
+    "tags": ["led", "foco", "e27"]
+  },
+    {
+        "id": "cable-thw-2x14",
+        "categoria": "electricidad",
+        "titulo": "Cable THW 2x14 AWG",
+        "descripcion": "Cable eléctrico para instalaciones residenciales.",
+        "precio": 0.5,
+        "img": "/media/productos/electricidad/cable-thw-2x14-640.webp",
+        "tags": ["cable", "thw", "14awg"]
+    },
+    {
+        "id": "grif-llave-mezcladora",
+        "categoria": "gasfiteria",
+        "titulo": "Grifería Llave Mezcladora",
+        "descripcion": "Grifería para lavabo con acabado cromado.",
+        "precio": 25.0,
+        "img": "/media/productos/gasfiteria/grif-llave-mezcladora-640.webp",
+        "tags": ["griferia", "mezcladora", "cromado"]
+    },
+    {
+        "id": "pintura-latex-blanca",
+        "categoria": "acabados",
+        "titulo": "Pintura Látex Blanca 1 Galón",
+        "descripcion": "Pintura interior de alta calidad, fácil aplicación.",
+        "precio": 15.0,
+        "img": "/media/productos/acabados/pintura-latex-blanca-640.webp",
+        "tags": ["pintura", "latex", "blanca"]
+    },
+    {
+        "id": "cemento-portland-50kg",
+        "categoria": "acabados",
+        "titulo": "Cemento Portland 50kg",
+        "descripcion": "Cemento de alta resistencia para construcción.",
+        "precio": 7.5,
+        "img": "/media/productos/materiales-construccion/cemento-portland-50kg-640.webp",
+        "tags": ["cemento", "portland", "50kg"]
+    },
+    {
+        "id": "tubo-pvc-3-4",
+        "categoria": "gasfiteria",
+        "titulo": "Tubo PVC 3/4\"",
+        "descripcion": "Tubo de PVC para instalaciones de agua.",
+        "precio": 1.2,
+        "img": "/media/productos/gasfiteria/tubo-pvc-3-4-640.webp",
+        "tags": ["tubo", "pvc", "3/4"]
+    },
+        {
+        "id": "tub-pvc-3-4",
+        "categoria": "gasfiteria",
+        "titulo": "Tuberia PVC 3/4\"",
+        "descripcion": "Tubo de PVC para instalaciones de agua.",
+        "precio": 1.2,
+        "img": "/media/productos/gasfiteria/tubo-pvc-3-4-640.webp",
+        "tags": ["tubo", "pvc", "3/4"]
+    }
+
+]

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Ferretería & Servicios – Chota</title>
+  <meta name="description" content="Servicios de instalación y ferretería con garantía en Chota. Cotiza por WhatsApp o llamada.">
+
+  <!-- Manifest + favicon (luego creamos estos archivos en /public) -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- CSS de Tailwind (entrada que Vite compila y purga) -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body class="bg-white text-slate-800 antialiased">
+  <!-- Header simple con CTA -->
+  <header class="border-b">
+    <div class="container py-4 flex items-center justify-between">
+      <a href="#" class="font-semibold text-lg">Ferretería Wilmer</a>
+
+      <!-- Nav mínimo; puedes ampliarlo -->
+      <nav class="hidden sm:flex gap-6">
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#ofertas" class="hover:underline">Ofertas</a>
+        <a href="#portafolio" class="hover:underline">Trabajos</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+
+      <!-- CTA principal -->
+      <a href="https://wa.me/51992763063" target="_blank" rel="noopener"
+         class="inline-flex items-center rounded-lg border px-3 py-2 text-sm hover:bg-slate-50">
+        Cotiza por WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-slate-50">
+    <div class="container py-12 grid gap-6 md:grid-cols-2 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold leading-tight">
+          Instalaciones y ferretería con garantía en Chota
+        </h1>
+        <p class="mt-3 text-slate-600">
+          Atendemos rápido, materiales certificados y soporte postventa.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="#servicios" class="rounded-lg bg-slate-900 text-white px-4 py-2 text-sm">Ver servicios</a>
+          <a href="#ofertas" class="rounded-lg border px-4 py-2 text-sm">Ver ofertas</a>
+        </div>
+      </div>
+      <!-- Imagen de portada (súbela a /public/media/hero/hero-1920.webp) -->
+      <img src="/media/hero/hero-1920.webp" alt="Equipo instalando grifería"
+           class="rounded-xl shadow object-cover w-full h-64 md:h-80">
+    </div>
+  </section>
+
+  <!-- Servicios (carrusel horizontal) -->
+  <section id="servicios" class="py-12">
+    <div class="container">
+      <div class="flex items-end justify-between mb-4">
+        <h2 class="text-2xl font-semibold">Servicios</h2>
+        <!-- Botones del carrusel controlados por JS -->
+        <div class="flex gap-2">
+          <button class="prev-serv btn-ghost border rounded px-3 py-1 text-sm" aria-label="Anterior">◀</button>
+          <button class="next-serv btn-ghost border rounded px-3 py-1 text-sm" aria-label="Siguiente">▶</button>
+        </div>
+      </div>
+
+      <!-- Pista del carrusel: el JS insertará tarjetas aquí -->
+      <ul
+        class="carousel-track hide-scrollbar flex gap-4 snap-x"
+        data-list="servicios" tabindex="0" aria-label="Carrusel de servicios">
+        <!-- Las tarjetas se inyectan desde main.js usando servicios.json -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="categorias" class="py-12">
+  <div class="container">
+    <h2 class="text-2xl font-semibold mb-4">Categorías de productos</h2>
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <article class="bg-white border rounded-xl p-6 text-center">
+        <img src="/media/hero/iluminacion.webp" alt="Iluminación" class="w-full aspect-square object-cover" loading="lazy" />
+        <div class="p-4">
+          <h3 class="font-bold text-lg">ILUMINACIÓN</h3>
+          <p class="text-sm text-neutral-600">Encuentra diferentes tipos de lámparas, focos, leds y más.</p>
+          <a href="/catalogo?cat=iluminacion" class="inline-block text-sm text-blue-500 hover:underline">Ver catálogo</a>
+        </div>
+      </article>
+
+      <article class="bg-white border rounded-xl p-6 text-center">
+        <img src="/media/hero/electricidad.webp" alt="Electricidad" class="w-full aspect-square object-cover" loading="lazy" />
+        <div class="p-4">
+          <h3 class="font-bold text-lg">ELECTRICIDAD</h3>
+          <p class="text-sm text-neutral-600">Cables, tuberías, tomacorrientes y tableros.</p>
+          <a href="/catalogo.html?cat=electricidad" class="inline-block text-sm text-blue-500 hover:underline">Ver catálogo</a>
+        </div>
+      </article>
+
+      <article class="bg-white border rounded-xl p-6 text-center">
+        <img src="/media/hero/gasfiteria.webp" alt="Gasfitería" class="w-full aspect-square object-cover" loading="lazy" />
+        <div class="p-4">
+          <h3 class="font-bold text-lg">GASFITERÍA</h3>
+          <p class="text-sm text-neutral-600">Grifería, tuberías PVC/CPVC, válvulas y accesorios.</p>
+          <a href="/catalogo.html?cat=gasfiteria" class="inline-block text-sm text-blue-500 hover:underline">Ver catálogo</a>
+        </div>
+      </article>
+
+      <article class="bg-white border rounded-xl p-6 text-center">
+        <img src="/media/hero/acabados.webp" alt="Acabados" class="w-full aspect-square object-cover" loading="lazy" />
+        <div class="p-4">
+          <h3 class="font-bold text-lg">ACABADOS</h3>
+          <p class="text-sm text-neutral-600">Pinturas, silicona, selladores y porcelanatos.</p>
+          <a href="/catalogo.html?cat=acabados" class="inline-block text-sm text-blue-500 hover:underline">Ver catálogo</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Ofertas (carrusel separado de servicios) -->
+  <section id="ofertas" class="py-12 bg-slate-50">
+    <div class="container">
+      <div class="flex items-end justify-between mb-4">
+        <h2 class="text-2xl font-semibold">Ofertas</h2>
+        <div class="flex gap-2">
+          <button class="prev-ofe border rounded px-3 py-1 text-sm" aria-label="Anterior">◀</button>
+          <button class="next-ofe border rounded px-3 py-1 text-sm" aria-label="Siguiente">▶</button>
+        </div>
+      </div>
+
+      <ul
+        class="carousel-track hide-scrollbar flex gap-4 snap-x"
+        data-list="ofertas" tabindex="0" aria-label="Carrusel de ofertas">
+      </ul>
+    </div>
+  </section>
+
+  <!-- Trabajos realizados (portafolio) -->
+  <section id="portafolio" class="py-12">
+    <div class="container">
+      <h2 class="text-2xl font-semibold mb-4">Trabajos realizados</h2>
+      <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" data-list="portafolio">
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contacto / Footer -->
+  <footer id="contacto" class="border-t">
+    <div class="container py-10 grid md:grid-cols-2 gap-6">
+      <div>
+        <p class="font-semibold">Ferretería Wilmer</p>
+        <p class="text-sm text-slate-600">Av. Bambamarca N° 186, Chota, Cajamarca</p>
+        <p class="text-sm text-slate-600">Atención: Lun a Sáb  de 8:00 am a 6:00 pm</p>
+      </div>
+      <div class="flex gap-3 md:justify-end">
+        <a class="rounded-lg bg-slate-900 text-white px-4 py-2 text-sm"
+           href="https://wa.me/51999999999" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="rounded-lg border px-4 py-2 text-sm"
+           href="tel:+51992763063">Llamar</a>
+      </div>
+    </div>
+    <div class="text-center text-xs text-slate-500 pb-6">
+      © <span id="year"></span> Ferretería Wilmer. Todos los derechos reservados.
+      <span class="px-1">•</span>
+      <a href="/legal/privacidad.html" class="underline">Privacidad</a>
+      <span class="px-1">•</span>
+      <a href="/legal/terminos.html" class="underline">Términos</a>
+    </div>
+  </footer>
+
+  <!-- JS de la app (módulos ESM) -->
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
